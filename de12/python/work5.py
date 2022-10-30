@@ -1,0 +1,29 @@
+
+for i in range(1,4):
+    print(i,"人目")
+
+#printの中に以下のことが入っているようにしたいから、printと同じ列に持ってくる。
+
+
+    #自分で練習
+    name=input("名前を教えなさい")
+    waist=float(input("腹囲は何？"))
+    age=int(input("年齢は何ですか？"))
+
+
+    print(name,"は腹囲が",waist,"cmで年齢は",age,"歳です。")
+
+    if waist>=77:
+        print(name,"は内臓脂肪注意です")
+    else:
+        print(name,"は腹囲は問題ないよ")
+
+
+
+
+
+
+
+
+
+
